@@ -1,0 +1,387 @@
+/* universal style section  */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*--------------------
+ navigation design section  
+ ---------------------*/
+
+ /* nav link design  */
+nav{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-bottom: 3vh;
+}
+.navlink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 50px 200px 102px 150px; */
+    padding: 5%;
+}
+.navlink-text{
+    font-weight: 700;
+    /* font-size: 45px; */
+    font-size: 3vw;
+}
+
+.link ul{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+}
+.link ul li a{
+       text-decoration: none;
+       color: #424242;
+       font-weight: 500;
+       font-size: 18px;
+}
+
+/* nav title design  */
+
+.navtitle{
+    /* margin: 0 229px; */
+    margin: 0 10%;
+}
+
+.title-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+}
+.txt-primary{
+    font-weight: 700;
+    /* font-size: 64px; */
+    font-size: 6vw;
+    color: #131313;
+}
+.txt-secondary{
+    text-align: center;
+    color: #727272;
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: orange;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* nav image design  */
+.nav-image{
+    width: 100%;
+    height: fit-content;
+    margin-top: 35px;
+}
+/* main section design here  */
+.main{
+    margin:0 10%;
+    margin-top: 7vh;
+}
+.album{
+    display: flex;
+    align-items: center;
+    column-gap: 5%;
+}
+.album-img ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    list-style: none;
+    gap: 24px;
+    
+}
+.album-img{
+    width: 60%;
+}
+.album-img ul li img{
+    height: 100%;
+    width: 100%;
+}
+.album-txt{
+    width: 40%;
+}
+.text-2{
+    text-align: left;
+    margin: 25px 0;
+}
+.quick-list{
+    color: #727272;
+}
+.general{
+    color: orange;
+}
+
+/* main body feature section design  */
+.features{
+    display: flex;
+    text-align: center;
+    margin-top: 10vh;
+}
+.features-txt{
+    margin-right: 2vw;
+    width: 50%;
+}
+.features-discription{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    row-gap: 50px;
+}
+.features-discription div h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.features-discription div p{
+    color: #727272;
+}
+
+.vl{
+    border-left: 3px solid orange;
+    
+}
+
+.vl h1{
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 20px;
+}
+.feature-img{
+    width: 50%;
+}
+.feature-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.years{
+    background-color: orange;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -60px;
+    
+}
+.years div{
+    font-weight: 700;
+    font-size: 3vw;
+    color: #FFFFFF;
+}
+.years span{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/*-----------------
+ fact section
+ --------------  */
+.fact-section{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.fact-txt p{
+    margin-top: 24px;
+    color: #727272;
+
+}
+.fact-icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.fact-icon{
+    border: 1px solid orange;
+    text-align: center;
+    border-radius: 8px;
+    padding: 35px;
+    margin-left: 60px;
+}
+.fact-icon:hover{
+    transform: scale(1.2);
+}
+.fact-icon p{
+    color: #727272;
+}
+/* achivement design here  */
+.achivements{
+    text-align: center;
+    margin-top: 50px;
+}
+.achivement-discription{
+    color: #727272;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+.achivement-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    align-items: center;
+}
+.achivement-img img{
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+
+
+/* sponser section design  */
+.sponsors{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.sponsors-img{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+}
+.sponsor-txt{
+    margin: 5% 20%;
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponsor-txt p{
+    color: #727272;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    padding: 30px 0;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 10% 0;
+}
+
+
+
+
+
+/*----------------
+ Media Queries 
+------------------ */
+
+/* Mobile devices  */
+@media only screen and (max-width:575.98px){
+
+        /*--------------------
+    navigation design section  
+    ---------------------*/
+
+    .navlink{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .navlink-text{
+        font-weight: 700;
+        font-size: 35px;
+        width: auto;
+    }
+    .link{
+        margin-right: 35px;
+    }
+    .link ul li a{
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    /* nav title design  */
+    .navtitle{
+        margin: 0 20px;
+    }
+    .title-text{
+        gap: 10px;
+    }
+    .txt-primary{
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .archit{
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .txt-secondary{
+        font-size: 12px;
+    }
+    .btn-primary{
+        font-weight: 500;
+        font-size: 10px;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    
+    /* main section design  */
+    .album{
+        flex-direction: column;
+        width: 100vw;
+        margin: 5%;
+    }
+    .album-img ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        
+    }
+
+    /* features design section  */
+    .features{
+        flex-direction: column;
+    }
+    .features-txt{
+        width: 100%;
+    }
+    .feature-img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .years{
+        position: relative;
+        top: 0;
+    }
+
+    /* fact section design  */
+    .fact-section{
+        margin-top: 30px;
+        gap: 50px;
+    }
+    .fact-icons{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .fact-icon{
+        margin-left: 5px;
+    }
+    .fact-icon:hover{
+        transform: scale(1.2);
+        background-color: orange;
+    }
+    /* our achivement secton  */
+    .achivement-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+
+
+    /* sponsor hide  */
+    .sponsors{
+        display: none;
+    }
+}
